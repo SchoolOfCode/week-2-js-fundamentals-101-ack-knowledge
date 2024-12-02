@@ -16,3 +16,14 @@ function convertGBPtoEUR(pounds) {
 // 4. 5% said being able to book hotels through an app
 
 // 5. 2% said getting alerts about deals on hotels they've previously seen
+
+//MVP 2
+
+//Write another function convertGBPtoUSD that takes in a specified amount in £, ✅
+//and converts it to $ using a given exchange rate(1.27). ✅
+//It should behave in a very similar way to the previous function.✅
+
+function convertGBPtoUSD(pounds) {
+ let dollars= pounds * 1.27;
+ return dollars;
+}
