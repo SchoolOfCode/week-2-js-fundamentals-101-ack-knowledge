@@ -4,6 +4,8 @@
 // returning the number representing the Celsius value.
 
 
+// fahrenheit is (F-32) * 5 / 9
+
 // function for conversion fahrenheit to celsius
 function convertFahrenheitToCelsius(fahrenheit){
 
