@@ -48,13 +48,12 @@ function convertGBPtoUSD(pounds) {
 function convertGBPToCurrency(code, value) {
 
   if (code === "EUR") {
-    conversion = convertGBPtoEUR(value);
+    return convertGBPtoEUR(value);
   }     
   else if  (code === "USD"){
-    conversion = convertGBPtoUSD(value);
+    return convertGBPtoUSD(value);
   }
   else return null
-  return conversion;
 } 
 
 // 3. 10% said being able to book transport through an app
